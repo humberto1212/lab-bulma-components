@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './navbar/Navbar'
 import FormField from './formfield/FormField'
+import SignUp from './signUp/Signup'
+import Message from './message/Mennage'
 
 
 const App = () => {
@@ -19,6 +21,12 @@ const App = () => {
         type={ 'email' } 
         placeholder={ 'e.g. alexsmith@gmail.com' } 
       />
+
+      <SignUp />
+
+      <Message isInfo title='Hello World'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong> Pellentesque risus mi</strong>.
+      </Message>
 
     </div>
   )

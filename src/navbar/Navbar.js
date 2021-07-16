@@ -30,11 +30,11 @@ function Navbar() {
               <div className="buttons">
 
                 
-                  <CoolButton class={`is-Danger is-Small is-rounded`}>
+                  <CoolButton class={` is-Danger is-Small is-rounded`}>
                     Login
                   </CoolButton>
 
-                  <CoolButton class={`is-small is-success`}>
+                  <CoolButton class={` is-small is-success`}>
                     Signup
                   </CoolButton>
              
